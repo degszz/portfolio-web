@@ -6,7 +6,7 @@ export default function Hero() {
     return (
         <>
             <div className="flex justify-center h-full pt-[51px] lg:pt-[60px]  ">
-            
+
                 <div
                     className="md:max-w-[450px] lg:min-w-[750px] lg:max-w-[750px] py-8 flex flex-col justify-center sm:justify-center items-center z-10"
                 >
@@ -22,8 +22,8 @@ export default function Hero() {
                                 className="text-xl max-w-[280px] sm:max-w-[350px] md:max-w-[450px] lg:max-w-[500px]"
                             >
                                 +2 años de experiencia. <b className="text-kai-button"
-                                >Developer ux/ui Front-end
-                                </b> de Buenos Aires, Argentina. Especializado en el desarrollo
+                                >Developer ux/ui
+                                </b>  de Buenos Aires, Argentina. Especializado en el desarrollo
                                 de aplicaciones web únicas.
                             </p>
                         </div>

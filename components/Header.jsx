@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <>
             <header
-                className="bg-transparent text-white z-50 fixed top-0 h-[51px] lg:h-[60px] w-full flex items-center justify-between"
+                className="bg-black/20  text-white z-50 fixed top-0 h-[51px] lg:h-[60px] w-full flex items-center justify-between"
             >
 
                 <div

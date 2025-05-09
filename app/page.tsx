@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <>
 
-        <div className="bg-kai-bgblack w-full h-full text-white">
+        <div className="w-full h-full text-white">
 
           <Hero />
 

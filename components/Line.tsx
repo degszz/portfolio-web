@@ -20,12 +20,22 @@ export default function Line() {
                                 </div>
                                 <div className="pl-6">
                                     <h2 className="text-sans text-xl dark:text-white mb-2">
-                                        <b>Experiencia Laboral:</b>
+                                        <b>📚 Certificados:</b>
                                     </h2>
                                     <span className="dark:text-white text-md text-serif"
-                                    >No tuve Trabajo como Desarrollador en ninguna empresa, Pero forme parte en Proyectos Gracias a mi <b className="text-kai-button">Experiencia como Desarrollador Web</b>
+                                    >Soy un Desarrollador Autodidacta,  <b className="text-[#006092]">Certificado en Python y Scraping de Datos con Python.</b>
                                     </span>
-                                    <div></div>
+                                    <div>
+                                        <ul className="style-none list-disc text-md text-serif dark:text-white">
+                                            <li className="group hover:text-[#006092] hover:cursor-pointer w-fit group underline pt-4">
+                                                <a className="" href="https://certificados.midudev.com/5e905990-1eab-4b65-a864-5d6ddd975851.pdf" target="_blank"><b># Certificado Python </b></a>
+                                            </li>
+                                            <li className="hover:text-[#006092] hover:cursor-pointer w-fit group underline pt-4">
+                                                <a className="" href="https://certificados.midudev.com/55a12f17-0bf1-4fae-ab6c-d63077b2ba36.pdf" target="_blank"><b># Certificado Scraping con Python </b></a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
 
@@ -41,10 +51,10 @@ export default function Line() {
                                 </div>
                                 <div className="pl-6">
                                     <h2 className="text-sans text-xl  mb-2">
-                                        <b>Ruta de Aprendizaje</b>
+                                        <b>👨🏼‍💻 Lenguajes & Frameworks:</b>
                                     </h2>
                                     <span className=" text-md text-serif"
-                                    >Soy un Desarrollador Web Autodidacta, Con experiencia en lenguajes como <b className="text-kai-button">Javascript y Typescript, </b> y Frameworks como <b className="text-kai-button">React, Next, Astro, Tailwind, Shadcn, y mas.</b> </span>
+                                    >Con Experiencia en Lenguajes como <b className="text-[#006092]">Javascript, Typescript y Python</b>, Con Conocimientos en Frameworks como <b className="text-[#006092]">React, Nextjs, Astro, Tailwind, Shadcn, y mas.</b> </span>
                                     <div></div>
                                 </div>
                             </div>
@@ -61,10 +71,10 @@ export default function Line() {
                                 </div>
                                 <div className="pl-6">
                                     <h2 className="text-sans text-xl  mb-2">
-                                        <b>Lorem</b>
+                                        <b>🛠️ Experiencia Laboral:</b>
                                     </h2>
                                     <span className=" text-md text-serif"
-                                    ><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus hic quasi, facilis nostrum, nisi similique cupiditate omnis voluptates quod tempore velit ducimus rerum! Incidunt illum, dolores ratione magni nobis fugiat!</b> </span>
+                                    >Con los Conocimientos Necesarios Para <b className="text-[#006092]">Mi Primer Trabajo Laboral</b> </span>
                                     <div></div>
                                 </div>
                             </div>
