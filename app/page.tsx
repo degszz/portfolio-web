@@ -40,8 +40,8 @@ export default function Home() {
         <Hero />
 
 
-
-        {/*           <div className="flex justify-center">
+        {/* 
+        <div className="flex justify-center">
             <div className="max-w-[250px]  md:max-w-[450px] lg:min-w-[750px] lg:max-w-[750px] py-6">
               <span className="text-white text-xl underline"><b>Lenguajes/Frameworks</b></span>
               <Carousel
@@ -124,10 +124,12 @@ export default function Home() {
                 <CarouselNext />
               </Carousel>
             </div>
-          </div> */}
+        </div> 
+        */}
 
-        <div className="py-6 w-full flex flex-col items-center max-w-[350px] md:max-w-[450px] md:min-w-[450px]  lg:min-w-[750px] lg:max-w-[750px]" id="PRO" >
-
+        <div id="PRO"></div>
+        <br />
+        <div className="py-4  w-full flex flex-col items-center max-w-[350px] md:max-w-[450px] md:min-w-[450px]  lg:min-w-[750px] lg:max-w-[750px]"  >
           <div className="w-full text-center md:text-start ">
             <h3
               className=" underline text-xl"
@@ -136,29 +138,33 @@ export default function Home() {
             </h3>
           </div>
 
-          <div className="w-full flex flex-col md:flex-row  items-center md:justify-around">
+          <div className="w-fit my-6 lg:w-full grid gap-6 md:gap-4 lg:gap-6 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 ">
 
-            <div id="PRO" className="border-0 my-4 bg-transparent w-fit h-full rounded-xl hover:cursor-pointer transition-all duration-200 ease-in-out scale-90 hover:shadow-2xl  hover:opacity-100 hover:scale-110 hover:bg-slate-950">
+            <div className="group border-0  bg-transparent w-fit h-fit rounded-xl hover:cursor-pointer transition-all duration-200 ease-in-out scale-90 hover:shadow-2xl  hover:opacity-100 hover:scale-110 hover:bg-[#19262e]">
               <a target="_blank" className="flex flex-col bg-transparent text-lg w-full items-center lg:items-start md:items-start  hover:underline text-white" href="https://helpful-basbousa-eca252.netlify.app/">
-                <img src="designsystem.png" className="max-h-[150px] max-w-[150px] rounded-xl z-10 hover:rounded-b-none" alt="" />
-                Design System
+                <img src="designsystem.png" className="max-h-[150px] md:max-h-[200px]  rounded-xl z-10 group-hover:rounded-b-none" alt="" />
+                <span className="py-2  group-hover:underline">
+                  Design System
+                </span>
               </a>
             </div>
 
-            <div id="PRO" className="border-0 my-4 bg-transparent w-fit h-full rounded-xl hover:cursor-pointer transition-all duration-200 ease-in-out scale-90 hover:shadow-2xl  hover:opacity-100 hover:scale-110 hover:bg-slate-950">
-              <a target="_blank" className="flex flex-col bg-transparent text-lg w-full items-center lg:items-start md:items-start  hover:underline text-white" href="https://helpful-basbousa-eca252.netlify.app/">
-                <img src="foodweb.png" className="max-h-[150px] max-w-[150px] rounded-xl z-10 hover:rounded-b-none" alt="" />
-                Food Website
+            <div className="group border-0  bg-transparent w-fit h-fit rounded-xl hover:cursor-pointer transition-all duration-200 ease-in-out scale-90 hover:shadow-2xl  hover:opacity-100 hover:scale-110 hover:bg-[#19262e]">
+              <a target="_blank" className="rounded-xl flex flex-col  text-lg w-full items-center lg:items-start md:items-start  hover:underline text-white" href="https://helpful-basbousa-eca252.netlify.app/">
+                <img src="foodweb.png" className="max-h-[150px] md:max-h-[200px]  rounded-xl z-10 group-hover:rounded-b-none" alt="" />
+                <span className="py-2  group-hover:underline">
+                  Food Website
+                </span>
               </a>
             </div>
 
-
-            <div id="PRO" className=" border-0 my-4 bg-transparent w-fit h-full rounded-xl hover:cursor-pointer transition-all duration-200 ease-in-out scale-90 hover:shadow-2xl  hover:opacity-100 hover:scale-110 hover:bg-slate-950">
-              <a target="_blank" className=" flex flex-col bg-transparent text-lg w-full items-center lg:items-start md:items-start  hover:underline text-white" href="https://helpful-basbousa-eca252.netlify.app/">
-                <img src="foodweb.png" className="max-h-[150px] max-w-[150px] rounded-xl z-10 hover:rounded-b-none blur-sm" alt="" />
-                Proximo
-              </a>
+            <div className="group border-2  bg-transparent w-full  h-full rounded-xl  transition-all duration-200 ease-in-out scale-90 hover:shadow-2xl   ">
+              <div className="h-full w-full flex flex-col items-center justify-center min-h-[150px] md:min-h-[200px]">
+                <h2 className="text-4xl">?</h2>
+              </div>
             </div>
+
+
           </div>
         </div>
 

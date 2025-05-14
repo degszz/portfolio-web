@@ -8,10 +8,10 @@ export default function Hero() {
             <div className="flex justify-center h-full pt-[51px] lg:pt-[60px]  ">
 
                 <div
-                    className="md:max-w-[450px] lg:min-w-[750px] lg:max-w-[750px] py-8 flex flex-col justify-center sm:justify-center items-center z-10"
+                    className="max-w-[350px] md:max-w-[450px] lg:min-w-[750px] lg:max-w-[750px] py-8 flex flex-col justify-center sm:justify-center items-center z-10"
                 >
                     <div className="flex justify-start w-full">
-                        <img src="/yo.png" className="w-[60px] h-[60px] rounded-full shadow-xl" alt="yo" />
+                        <img src="/yo.png" className="w-[70px] h-[70px] rounded-full shadow-xl" alt="yo" />
                     </div>
                     <div className="h-fit w-full mx-4 text-start  flex-col">
                         <div className="my-2.5">
@@ -68,6 +68,7 @@ export default function Hero() {
             </div>
             <div>
                 <div id="EXP" className="pt-6"></div>
+                <br />
                 <Line />
             </div>
         </>

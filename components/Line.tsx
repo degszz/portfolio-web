@@ -28,10 +28,10 @@ export default function Line() {
                                     <div>
                                         <ul className="style-none list-disc text-md text-serif dark:text-white">
                                             <li className="group hover:text-[#006092] hover:cursor-pointer w-fit group underline pt-4">
-                                                <a className="" href="https://certificados.midudev.com/5e905990-1eab-4b65-a864-5d6ddd975851.pdf" target="_blank"><b># Certificado Python </b></a>
+                                                <a className="" href="https://certificados.midudev.com/5e905990-1eab-4b65-a864-5d6ddd975851.pdf" target="_blank"><b>➱ Certificado Python </b></a>
                                             </li>
                                             <li className="hover:text-[#006092] hover:cursor-pointer w-fit group underline pt-4">
-                                                <a className="" href="https://certificados.midudev.com/55a12f17-0bf1-4fae-ab6c-d63077b2ba36.pdf" target="_blank"><b># Certificado Scraping con Python </b></a>
+                                                <a className="" href="https://certificados.midudev.com/55a12f17-0bf1-4fae-ab6c-d63077b2ba36.pdf" target="_blank"><b>➱ Certificado Scraping con Python </b></a>
                                             </li>
 
                                         </ul>
