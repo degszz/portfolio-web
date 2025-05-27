@@ -33,7 +33,9 @@ export default function Line() {
                                             <li className="hover:text-[#006092] hover:cursor-pointer w-fit group underline pt-4">
                                                 <a className="" href="https://certificados.midudev.com/55a12f17-0bf1-4fae-ab6c-d63077b2ba36.pdf" target="_blank"><b>➱ Certificado Scraping con Python </b></a>
                                             </li>
-
+                                            <li className="group hover:text-[#006092] hover:cursor-pointer w-fit group underline pt-4">
+                                                <a className="" href="https://certificados.midudev.com/27c9ea26-4c00-483b-b173-d17d2e7f2b85.pdf" target="_blank"><b>➱ MCP Model Context Protocol</b></a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
