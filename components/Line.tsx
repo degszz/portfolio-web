@@ -23,10 +23,13 @@ export default function Line() {
                                         <b>📚 Certificados:</b>
                                     </h2>
                                     <span className="dark:text-white text-md text-serif"
-                                    >Soy un Desarrollador Autodidacta,  <b className="text-[#006092]">Certificado en Python y Scraping de Datos con Python.</b>
+                                    >Soy un Desarrollador Autodidacta,  <b className="text-[#006092]">Certificado en Python, Javascript y MCP.</b>
                                     </span>
                                     <div>
                                         <ul className="style-none list-disc text-md text-serif dark:text-white">
+                                            <li className="group hover:text-[#006092] hover:cursor-pointer w-fit group underline pt-4">
+                                                <a className="" href="https://certificados.midudev.com/abb12ed4-59f7-4696-9047-3501d793b466.pdf" target="_blank"><b>➱ Certificado Javascript ES2023 & ES2024</b></a>
+                                            </li>
                                             <li className="group hover:text-[#006092] hover:cursor-pointer w-fit group underline pt-4">
                                                 <a className="" href="https://certificados.midudev.com/5e905990-1eab-4b65-a864-5d6ddd975851.pdf" target="_blank"><b>➱ Certificado Python </b></a>
                                             </li>
