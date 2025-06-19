@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero"
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -30,57 +31,57 @@ export default function Home() {
             <span
               className="absolute bottom-2 left-4 font-bold text-2xl group-hover:-translate-y-1 transition-transform z-20">Design System</span>
 
-            <img
+            <Image
               className="absolute -right-4 -bottom-4 -rotate-6 size-28 md:size-40 z-10 group-hover:-rotate-12 group-hover:scale-125 transition-transform"
-              width="100" height="100" src="/puzzle.avif">
-            </img>
+              width="100" height="100" src="/puzzle.avif" alt="puzzle">
+            </Image>
 
             <span className="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">+8 Componentes para Usar</span>
           </a>
 
-          <a href="https://midu.link/html" className="
+          <a href="" className="
           relative rounded-3xl overflow-hidden
           bg-gradient-to-br from-html via-[#d1d1d1] to-[#4f4f4f]
           border border-html
           flex flex-col items-start
           hover:scale-105 hover:contrast-125
           transition
-          group
+          group z-10
           col-span-1 p-7 min-h-[180px]
         ">
             <span
-              className="absolute bottom-2 left-4 font-bold text-2xl group-hover:-translate-y-1 transition-transform z-20">Web Food</span>
+              className="absolute bottom-2 left-4 font-bold text-2xl group-hover:-translate-y-1 transition-transform z-30">Web Food</span>
 
-            <img
-              className="absolute -right-4 -bottom-4 -rotate-6 size-28 md:size-40 z-10 group-hover:-rotate-12 group-hover:scale-125 transition-transform"
-              width="100" height="100" src="/3d.avif">
-            </img>
+            <Image
+              className="absolute -right-4 -bottom-4 -rotate-6 size-28 md:size-40 z-20 group-hover:-rotate-12 group-hover:scale-125 transition-transform"
+              width="100" height="100" alt="Plato" src="/3d.avif">
+            </Image>
 
             <span className="absolute top-2 left-1.5 md:left-4 text-xs border rounded-xl px-1 py-0.5">Proximamente</span>
           </a>
 
-          {/* 
-          <a href="https://midu.link/html" className="
+          <a href="https://polite-figolla-9c03dc.netlify.app/" target="_blank" className="
           relative rounded-3xl overflow-hidden
-          bg-gradient-to-br from-html via-orange-300 to-white
+          bg-gradient-to-br from-html via-[#00b6ff] to-[#0061e6]
           border border-html
           flex flex-col items-start
           hover:scale-105 hover:contrast-125
           transition
-          group
-          col-span-1 p-7 min-h-[180px]
+          group z-10
+          col-span-2 p-7 min-h-[180px]
         ">
             <span
-              className="absolute bottom-2 left-4 font-bold text-2xl group-hover:-translate-y-1 transition-transform">Food Web</span>
+              className="absolute bottom-2 left-4 font-bold text-2xl group-hover:-translate-y-1 transition-transform z-30">Water Web</span>
 
-            <svg
-              className="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform"
-              width="100" height="100">
 
-            </svg>
+            <Image
+              className="absolute -right-4 -bottom-4 -rotate-6 size-28 md:size-40 z-50 group-hover:-rotate-12 group-hover:scale-125 transition-transform"
+              src="/water.webp" width="100" height="100" alt="Water" ></Image>
 
-            <span className="absolute top-2 left-1.5 md:left-4 text-xs border rounded-xl px-1 py-0.5">Web para Pedir Comida</span>
+            <span className="absolute top-2 left-4 md:left-4 text-xs border rounded-xl px-1 py-0.5">Mediante Api de Whatsapp</span>
           </a>
+          {/* 
+
           <a href="https://midu.link/html" className="
           relative rounded-3xl overflow-hidden
           bg-gradient-to-br from-[#663399] via-[#8e44ad] to-white
@@ -126,7 +127,7 @@ export default function Home() {
           </a> */}
         </div>
         <br />
-      </div>
+      </div >
     </>
   );
 }
